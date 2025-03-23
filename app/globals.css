@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #23b5b5;
+  --secondary: #f0f0f0;
+  --background: #ffffff;
+  --foreground: #000000;
+  --muted: #f5f5f5;
+  --muted-foreground: #6b7280;
+  --border: #e5e7eb;
+  --input: #e5e7eb;
+  --ring: #23b5b5;
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+  --accent: #23b5b5;
+  --accent-foreground: #ffffff;
+  --card: #ffffff;
+  --card-foreground: #000000;
+  --popover: #ffffff;
+  --popover-foreground: #000000;
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: #0f172a;
+  --foreground: #ffffff;
+  --muted: #1e293b;
+  --muted-foreground: #94a3b8;
+  --border: #1e293b;
+  --input: #1e293b;
+  --card: #0f172a;
+  --card-foreground: #ffffff;
+  --popover: #0f172a;
+  --popover-foreground: #ffffff;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+/* Cores fixas que não mudam com o tema */
+.text-brand {
+  color: #23b5b5 !important;
+}
+
+.bg-brand {
+  background-color: #23b5b5 !important;
+}
+
+.border-brand {
+  border-color: #23b5b5 !important;
+}
+
+.hover\:bg-brand-hover:hover {
+  background-color: rgba(35, 181, 181, 0.9) !important;
+}
+
+.hover\:text-brand:hover {
+  color: #23b5b5 !important;
+}
+
+/* Gradientes para o modo escuro */
+.dark .gradient-blue {
+  background: linear-gradient(135deg, #0a1a2f 0%, #0d2e4e 100%);
+}
+
