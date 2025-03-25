@@ -2,6 +2,8 @@
 
 AstraMentor é uma plataforma de aprendizado e compartilhamento de conhecimentos sobre astrologia, oferecendo recursos interativos e uma comunidade engajada.
 
+Vídeo Demonstração do App: https://youtu.be/w6h4QYrXZYA
+
 ## 🚀 Tecnologias Utilizadas
 
 - **Frontend**: Next.js, React, TailwindCSS
